@@ -43,7 +43,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Header></Header>
+        <Header />
         <div className="container mrgnbtm">
           <div className="row">
             <div className="col-md-8">
@@ -60,7 +60,7 @@ class App extends Component {
             </div>
           </div>
         </div>
-        <div className="row mrgnbtm">
+        <div className="container mrgnbtm">
           <Users users={this.state.users}></Users>
         </div>
       </div>

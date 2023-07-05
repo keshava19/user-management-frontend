@@ -22,7 +22,7 @@ export const Users = ({users}) => {
     return(
         <div className="container">
             <h2>Users</h2>
-            <table className="table table-bordered">
+            <table>
                 <thead>
                 <tr>
                     <th>User Id</th>
